@@ -1,0 +1,20 @@
+{
+  "name": "login-page-ejs",
+  "version": "1.0.0",
+  "description": "This project name is \"Login Page EJS\"\r This is made using express JS, node JS, html, css, js\r I am trying to create a simpel login page but without any server\r Idea: using a dictionary\r It should contain username, password and submit button\r If not regsitered create account which adds a new key,value pair to our existing dictionary,\r IF wrong, it has to show an pop up saying wrong credentials,\r if crct it has to redirect to a new page where it contains, may b try adding something.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "fs": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "popups": "^1.1.3"
+  }
+}

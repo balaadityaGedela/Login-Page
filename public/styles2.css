@@ -1,0 +1,25 @@
+body
+{
+    background-color:seagreen;
+}
+
+.container1
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    background-color: aquamarine;
+    padding: 50px;;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    gap: 20px;
+    flex-basis: 300px;
+}

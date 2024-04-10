@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/SignUp Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="body">   
+        <div class="container1">
+            <form action="/login" method="POST" class="form">
+                <div class="container">
+                    <div class="userNameDiv">
+                        <label for="" name="userName" class="userNameSymbol">Username</label>
+                        <input type="text" name="userName_value" id="" placeholder="enter the username here" class="usernameValue">
+                    </div>
+                    <div class="passwordDiv">
+                        <label for="" name="password" class="passwordValue" >Password</label>
+                        <input type="password" name="password_value" class="passwordValue" placeholder="enter the password here">
+                    </div>
+                    <div class="submitDiv">
+                        <input type="submit" name="submit" id="" class="submitBtn" value="Login">
+                    </div>
+                </div>
+            </form>
+            <form action="/register" method="POST" class="form2">
+                <input type="submit" name="submit" id="" class="registerBtn" value="Register">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
